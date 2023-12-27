@@ -2,9 +2,9 @@
 title:          "Sol'story"
 bio:            'Just a simple Jekyll theme'
 description:    "Simple Jekyll theme for your blog by Taylan Tatlı"
-picture:        'assets/img/Logo.png'
-locale:         "ko-KR"
-url:            "https://ddolue.github.io"
+picture:        'assets/Images/LueTitle.png'
+locale:          ko-KR
+url:             https://ddolue.github.io
 
 # Jekyll
 permalink:      /:title/
