@@ -1,9 +1,22 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
-search: false
+sitemap: false
 ---
 
-@charset "utf-8";
+/*
+ *
+ *  Ramme
+ *
+ *  Designer: Taylan Tatlı
+ *  WEB: http://taylantatli.me
+ *
+*/
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+// Partials
+@import "variables";
+@import "normalize";
+@import "site";
+@import "googlefonts";
+@import "elements";
+@import "syntax";
+@import "fontawesome";
+@import "print";
