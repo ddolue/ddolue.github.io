@@ -10,7 +10,7 @@
         </div>
         <div class="post-list">
             {% for post in site.posts %} 
-                {% if post.project == null || if post.study == null %}
+                {% if post.project == null %}
             <ul>
                 <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
             </ul>
