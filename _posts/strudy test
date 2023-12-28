@@ -11,5 +11,3 @@ tag:
 - about
 - theme
 ---
-
-{% include toc.html %}
