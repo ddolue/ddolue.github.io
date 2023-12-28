@@ -19,6 +19,13 @@ $color_16: #fcfcfc;
 $color_17: #ccc;
 $color_18: #bbb;
 
+$customFont: "Dovemayo_gothic";
+$serif: $customFont, Georgia, Times, serif !default;
+$sans-serif: "Iropke Batang", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: "Nanum Gothic Coding", Monaco, Consolas, "Lucida Console", monospace !default;
+$cute: "Cafe24Oneprettynight" !default;
+
 //fonts
 $font1: PT Serif, serif;
 $font2: PT Mono;
