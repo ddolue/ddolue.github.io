@@ -11,13 +11,12 @@
         </div>
         <div class="article">
             {{ content }}
-            <div>
-                {% if page.tags %} {% for tag in page.tags %}
-                <span class="tag">{{ tag }}</span>
-                {% endfor %} {% endif %}
-            </div>
         </div>
-        
+        <div class="tag-list">
+            {% if page.tags %} {% for tag in page.tags %}
+                <span class="tag">{{ tag }}</span>
+            {% endfor %} {% endif %}
+        </div>
     </div>
     {% include footer.html %}
     {% include scripts.html %}
