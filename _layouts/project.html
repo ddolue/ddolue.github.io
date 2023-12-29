@@ -17,9 +17,11 @@
               {% endif %}
             {% endfor %}
         </div>
+      <div>
         {% if page.tags %} {% for tag in page.tags %}
         <span class="tag">{{ tag }}</span>
         {% endfor %} {% endif %}
+      </div>
     </div>
     {% include footer.html %}
 </body>
