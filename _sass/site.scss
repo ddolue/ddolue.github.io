@@ -286,9 +286,9 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0.625em;
-	border: 1px solid $color_1;
-	padding: 0.25em;
-	width: 6.875em !important;
+	border: 1.5px solid $color_1;
+	padding: 0.05em;
+	width: 10em !important;
 }
 .social-links {
 	position: relative;
@@ -302,7 +302,7 @@ body {
 	margin: 0.5em;
 	text-decoration: none;
 	color: $color_2 !important;
-	background: $color_1;
+	background: #27374D;
 	transition: all .5s;
 	&:hover {
 		background: $color_2;
@@ -528,4 +528,22 @@ body {
 	background-color: $color_2;
 	border: 1px solid $color_1;
 }
-/*추가*/
+
+.tag-list{
+	padding: 0.625em 5em 1.25em;
+	font-size: 0.85em;
+}
+.tag {
+	display: inline-block;
+	margin: 2px;
+	padding: 2px 4px;
+	border-radius: 3px;
+	background-color: grey;
+	color: rgb(255, 255, 255);
+	opacity: .7;
+	&:hover {
+		color: $color_4;
+		opacity: .9;
+		background-color: black;
+	}
+}
